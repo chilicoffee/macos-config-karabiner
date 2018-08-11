@@ -24,7 +24,7 @@ $ mv ~/.config/karabiner ~/.config/karabiner.bak && ln -s $(pwd)/karabiner ~/.co
 
 Option 2: Download the config file without cloning git repo
 ```
-$ mv ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak && curl https://gitlab.com/janis.puris/karabiner-config/raw/master/karabiner.json -o  ~/.config/karabiner/karabiner.json 
+$ mv ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak && curl https://gitlab.com/janis.puris/karabiner-config/raw/master/karabiner/karabiner.json -o  ~/.config/karabiner/karabiner.json 
 ```
 
 ## Dependencies
