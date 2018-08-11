@@ -14,13 +14,14 @@ Note: This also includes couple of simple modifications that
 
 ## Installation
 
-Option 1: Clone this repo and symlink the config file
+Option 1: Clone this repo and symlink the config directory
 ```
 $ cd ~
 $ git clone git@gitlab.com:janis.puris/karabiner-config.git
 $ cd karabiner-config
-$ mv ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak && ln -s $(pwd)/karabiner-config/karabiner.json ~/.config/karabiner/karabiner.json
+$ mv ~/.config/karabiner ~/.config/karabiner.bak && ln -s $(pwd)/karabiner ~/.config/karabiner
 ```
+
 Option 2: Download the config file without cloning git repo
 ```
 $ mv ~/.config/karabiner/karabiner.json ~/.config/karabiner/karabiner.json.bak && curl https://gitlab.com/janis.puris/karabiner-config/raw/master/karabiner.json -o  ~/.config/karabiner/karabiner.json 
